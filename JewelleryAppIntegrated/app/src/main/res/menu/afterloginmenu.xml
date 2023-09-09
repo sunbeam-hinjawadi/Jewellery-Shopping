@@ -1,0 +1,47 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/afHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Login"
+        android:title="Logout"
+        android:icon="@drawable/baseline_logout_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/afprofile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/afaboutus"
+        android:title="About Us"
+        android:icon="@drawable/baseline_info_24"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/afviewcart"
+        android:title="View Cart"
+        android:icon="@drawable/ic_cart"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/aforders"
+        android:title="Orders"
+        android:icon="@drawable/jewellery_icon_splash"
+        android:orderInCategory="100"
+        />
+</menu>

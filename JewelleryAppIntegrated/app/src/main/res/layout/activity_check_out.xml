@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.CheckOutActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!-- Billing Information -->
+        <TextView
+            android:id="@+id/textViewBillInfo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Billing Information"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Name -->
+        <EditText
+            android:textSize="25sp"
+            android:id="@+id/EditTextFullName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Full Name"/>
+
+        <!-- Address -->
+        <EditText
+            android:textSize="25sp"
+            android:id="@+id/EditTextAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Address"/>
+
+        <!-- City -->
+        <EditText
+            android:textSize="25sp"
+            android:id="@+id/EdittextCity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="City"/>
+        <!-- Country -->
+        <EditText
+            android:textSize="25sp"
+            android:id="@+id/EdittextCountry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Country"/>
+
+        <!-- Payment Information -->
+        <TextView
+            android:id="@+id/textviewPaymentInformation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Information"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:textSize="34dp"
+                android:text="Total :"/>
+            <TextView
+                android:id="@+id/amount"
+                android:layout_margin="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="34dp"
+                android:text="0000000000"/>
+
+
+        </LinearLayout>
+
+
+        <!-- Card Number -->
+        <EditText
+            android:id="@+id/EdittextCardNumber"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Card Number"
+            android:inputType="number"/>
+
+        <!-- Expiry Date -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/EdittextExpiryMonth"
+                android:textSize="20sp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Expiry Month"
+                android:inputType="number"/>
+
+            <EditText
+                android:textSize="20sp"
+                android:id="@+id/EdittextExpiryYear"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Expiry Year"
+                android:inputType="number"/>
+        </LinearLayout>
+
+        <!-- CVV -->
+        <EditText
+            android:textSize="20sp"
+            android:id="@+id/EdittextCVV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="CVV"
+            android:inputType="number"/>
+
+        <!-- Place Order Button -->
+        <Button
+            android:id="@+id/placeOrderBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Place Order"
+            android:layout_marginTop="16dp"/>
+    </LinearLayout>
+
+</LinearLayout>

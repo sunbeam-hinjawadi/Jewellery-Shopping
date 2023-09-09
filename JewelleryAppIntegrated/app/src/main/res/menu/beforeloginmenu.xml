@@ -1,0 +1,47 @@
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/befHome"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:orderInCategory="100"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/Login"
+        android:title="Login"
+        android:icon="@drawable/baseline_login_24"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+
+        />
+
+    <item
+        android:id="@+id/befprofile"
+        android:title="Profile"
+        android:icon="@drawable/profile"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+    <item
+        android:id="@+id/befaboutus"
+        android:title="About Us"
+        android:icon="@drawable/baseline_info_24"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/befviewcart"
+        android:title="View Cart"
+        android:icon="@drawable/ic_cart"
+        android:orderInCategory="100"
+        />
+
+    <item
+        android:id="@+id/beforders"
+        android:title="Orders"
+        android:icon="@drawable/jewellery_icon_splash"
+        android:orderInCategory="100"
+        />
+</menu>
